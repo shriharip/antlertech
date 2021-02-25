@@ -9,6 +9,18 @@
   });
 </script>
 
+<style global lang="postcss">
+
+  /* only apply purgecss on utilities, per Tailwind docs */
+  /* purgecss start ignore */
+  @tailwind base;
+  @tailwind components;
+  /* purgecss end ignore */
+
+  @tailwind utilities;
+
+</style>
+
 <main>
   <h1>Svelte + Node.js API</h1>
   <h2>
